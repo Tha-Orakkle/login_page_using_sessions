@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../static/styles/style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>login</title>
+  </head>
+  <body>
+    <div class="content-wrapper">
+      <h1> <span>Tha</span>-Orakkle</h1>
+      <div class="login-content">
+        <h2>Sign in</h2>
+        <p>stay updated on your professional world</p>
+        <form action="/login" method="post">
+          <label for="username">Username</label> <br />
+          <input type="text" id="username" name="username" /> <br />
+          <label for="password">Password</label> <br />
+          <input type="password" id="password" name="password"/><br />
+          <input type="submit" />
+        </form>
+        <hr>
+        <p>New to Tha-Orakkle? <a href="#">Join Now</a></p>
+      </div>
+      <footer>
+        <ul>
+            <li><a href="#"><span>Tha</span>-Orakkle &copy; 2023</a></li>
+            <li><a href="#">User Agreement</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Community Guidelines</a></li>
+            <li><a href="#">Cookie Policy</a></li>
+            <li><a href="#">Copyright Policy</a></li>
+            <li><a href="#">Send Feedback</a></li>
+            <li><select name="language" id="lang">
+                <option value="">Language</option>
+                <option value="">English</option>
+                <option value="">Spanish</option>
+                <option value="">French</option>
+                <option value="">Yoruba</option>
+            </select></li>
+        </ul>
+      </footer>
+    </div>
+  </body>
+</html>
